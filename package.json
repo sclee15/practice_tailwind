@@ -1,0 +1,23 @@
+{
+  "name": "practice_tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:tailwind": "npx tailwindcss -i ./src/style.css -o ./public/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sclee15/practice_tailwind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sclee15/practice_tailwind/issues"
+  },
+  "homepage": "https://github.com/sclee15/practice_tailwind#readme",
+  "dependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
